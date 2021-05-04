@@ -1,3 +1,3 @@
-<div>@cpyright</div>
+<div>Footer</div>
 </body>
 </html>

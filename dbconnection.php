@@ -69,7 +69,7 @@ $result = $conn->query($sql);
 
 ?>
 <div><?php if(isset($_session['success'])){echo $_session['success']; $_session['success']='';}?></div>
-<?php //echo $result->num_rows;?>
+<h1>Customers Listing</h1><br/><br/>
 <div  class="stylediv">
 <table class="stylediv listtable">
 <?php
@@ -123,7 +123,7 @@ while($row = $result->fetch_array()) {
 </head>
 <style>
 body {
-  background-color: #008068;
+  background-color: #009681ad;
 }
 .stylediv{
     width: 100%;
@@ -139,12 +139,14 @@ body {
 }
 .stylediv formtable{
     align:center;
-    
+   
 }
 </style>
 <body>
+<br/><br/>
+
 <form action="dbconnection.php"  method="post">
-    
+<h2>Registration Form</h2>
     <table class="stylediv formtable">
         <tr>
             <td>
